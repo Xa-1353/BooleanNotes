@@ -17,7 +17,7 @@ public class Main {
 
 */
 
-        double fuelLevel=.5;
+        /*double fuelLevel=.5;
 
         if(fuelLevel < .25)
             System.out.println("stop for gas");
@@ -42,7 +42,7 @@ public class Main {
             System.out.println("waffle house");
         }
 
-        System.out.println("  ");
+        System.out.println("  ");*/
 
         /*int i=7;
         if(i<10)
@@ -110,13 +110,46 @@ public class Main {
         }*/
 
 
-        System.out.println("  ");
+        /*System.out.println("  ");
         // number 8
 
-        int e = 7, f = 3;
-        if (e > 5 || f > 10);
+        int e=7, f = 3;
+        if (e > 5 || f > 10)
             System.out.println("ap");
-            else if (e>2)
-                System.out.println("compsci");
+        else if (e > 2)
+            System.out.println("compsci");*/
+
+        /*System.out.println("  ");
+        // number 9
+
+        int j=52;
+        if(j>10)
+            if(j>20)
+                if (j>30)
+                    System.out.print("compsci ");
+                else
+                    System.out.print("rox ");*/
+
+        System.out.println("  ");
+        // number 10
+
+        int g = 10;
+        if( g < 10 ){
+            if (g > 0) {
+                System.out.println("fun");
+            }
+            else if (g > 5){
+                System.out.println("jump");
+            }
+        }
+        else if ( g >= 10){
+            if(g>15){
+                System.out.println("three");
+            }
+            else if(g < 15){
+                System.out.println("four");
+            }
+        }
+
     }
 }
